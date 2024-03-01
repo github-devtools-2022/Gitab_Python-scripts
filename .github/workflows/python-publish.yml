@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: | 
           pip install --upgrade pip
+          pip install request
 
     - name: Run Python script
       run: python Projectlist.py  # Adjust the path to your Python script

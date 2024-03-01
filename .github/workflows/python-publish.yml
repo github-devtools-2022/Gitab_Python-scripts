@@ -19,8 +19,7 @@ jobs:
         python-version: 3.8  # Adjust Python version as needed
 
     - name: Install dependencies
-      run: |
-          pip install -r requirements.txt  # If you have a requirements file
+      run: | 
           pip install --upgrade pip
 
     - name: Run Python script

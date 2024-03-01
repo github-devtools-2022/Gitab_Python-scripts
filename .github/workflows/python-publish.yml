@@ -24,4 +24,4 @@ jobs:
           pip install requests
 
     - name: Run Python script
-      run: python Projectlist.py  # Adjust the path to your Python script
+      run: python Instence_users.py  # Adjust the path to your Python script

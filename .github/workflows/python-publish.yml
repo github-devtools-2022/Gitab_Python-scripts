@@ -3,7 +3,7 @@ name: Run Python script
 on:
   push:
     branches:
-      - main  # Adjust branch name as needed
+      - master  # Adjust branch name as needed
 
 jobs:
   run_python_script:

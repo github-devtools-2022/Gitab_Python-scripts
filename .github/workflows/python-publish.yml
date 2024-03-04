@@ -1,7 +1,7 @@
 name: Run Python script
 
-on:
-  push:
+#on:
+ # push:
     branches:
       - master  # Adjust branch name as needed
 
@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: 3.8  # Adjust Python version as needed
 
-    - name: Install dependencies
+    -# name: Install dependencies
       run: | 
           pip install --upgrade pip
           pip install requests
